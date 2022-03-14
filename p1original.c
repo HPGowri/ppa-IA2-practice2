@@ -15,11 +15,12 @@ void output(float base ,float height ,float area)
   printf ("the area of triangle of %f and %f is %f ", base , height , area);
 }
 
-void main()
+int main()
 {
   float base , height , area ;
   input(&base ,&height);
   find_area (base , height ,&area);
   output(base , height , area); 
+  return 0;
 }
 
